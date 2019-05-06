@@ -9,8 +9,15 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
-  
-
+  <style type="text/css" media="screen and (max-width:480px)">
+  .scrollSpan {
+    position: absolute;
+    left: 35%; top: 5rem;
+  }
+  .scrollSpan::after{
+    content: "Scroll Up&Down";
+  }
+  </style>
 </head>
 <body>
 <!-- notification for small viewports and landscape oriented smartphones -->
@@ -127,7 +134,7 @@
                   </svg>
                 </div>
               </div>
-              <span style="@media all and (min-width: 320px) {position: relative; left: 39%; top: 6.5rem;}">Scoll Down</span>
+              <span class="scrollSpan"></span>
             </div>
           </li>
           
@@ -207,6 +214,7 @@
                   </span>
                 </div>
               </form>
+              <span class="scrollSpan"></span>
             </div>
           </li>
           
@@ -250,6 +258,7 @@
           <br>
           <br>
           <br>
+          <span class="scrollSpan"></span>
             </div>
           </li>
           

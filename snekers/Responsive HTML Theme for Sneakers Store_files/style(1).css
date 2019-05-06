@@ -1,4 +1,5 @@
 .navbar-dropdown {
+  font-family: 'Poor Story', cursive;
   left: 0;
   padding: 0;
   position: absolute;
@@ -185,6 +186,7 @@
     -ms-transform: translateX(-100%);
     -webkit-transform: translateX(-100%); }
   .nav-dropdown-sm .nav-item {
+    
     display: block;
     margin-left: 0 !important;
     padding-left: 0; }
