@@ -891,12 +891,12 @@ body {
 .cid-qInS0EFrZB .navbar {
   min-height: 77px;
   transition: all .3s;
-  background: #365c9a;
+  background: black;
   /*background: none;*/
 }
 .cid-qInS0EFrZB .navbar.opened {
   transition: all .3s;
-  background: #365c9a !important;
+  background: black !important;
 }
 .cid-qInS0EFrZB .navbar .dropdown-item {
   padding: .235rem 1.5rem;
@@ -989,7 +989,7 @@ body {
   }
 }
 .cid-qInS0EFrZB .navbar.navbar-short {
-  background: #365c9a !important;
+  background: black !important;
   min-height: 60px;
 }
 .cid-qInS0EFrZB .navbar.navbar-short .navbar-logo img {
