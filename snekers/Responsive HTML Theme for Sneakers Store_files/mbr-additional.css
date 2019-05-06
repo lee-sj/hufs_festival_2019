@@ -1190,7 +1190,11 @@ body {
 .cid-qInUtxM9Uk {
   padding-top: 15px;
   padding-bottom: 90px;
-  background-color: black;
+  
+  background: linear-gradient(190deg, #121212, #ffffff);
+  background-size: 400% 400%;
+
+
 }
 .cid-qInUtxM9Uk .mbr-shop {
   display: table;

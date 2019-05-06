@@ -4,7 +4,19 @@
  */
 div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li,
 figcaption, textarea, input, .display-1, .display-2 {
-  font: inherit; }
+  font: inherit;
+
+  
+}
+
+span{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a.nav-link{
+  font-family: 'Do Hyeon', sans-serif;
+  font-17px;
+}
 
 section {
   background-color: #eeeeee; }
