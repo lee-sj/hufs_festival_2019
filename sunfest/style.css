@@ -245,6 +245,12 @@ body {
         right: -46%;
         width: 50%;
     }
+    body {
+        overflow-y: hidden;
+    }
+    .hero-content {
+        height: 101.1vh;
+    }
 }
 
 .hero-content {
