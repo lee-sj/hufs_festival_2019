@@ -9,13 +9,24 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
-  <style type="text/css" media="screen and (max-width:480px)">
-  .scrollSpan {
-    position: absolute;
-    left: 35%; bottom: 4rem;
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/멋쟁이사자처럼_로고.png/540px-멋쟁이사자처럼_로고.png">
+
+  <style type="text/css">
+  @media screen and (max-width:480px) {
+    .scrollSpan {
+      position: absolute;
+      left: 35%; bottom: 5rem;
+    }
+    .scrollSpan::after{
+      content: "Scroll Up&Down";
+    }
   }
-  .scrollSpan::after{
-    content: "Scroll Up&Down";
+  label {
+    opacity: 0.6;
+    transition : opacity .5s!important;
+  }
+  label:hover {
+    opacity: 1;
   }
   </style>
 </head>
@@ -24,9 +35,9 @@
 <div class="device-notification">
   <a class="device-notification--logo" href="">
     <img src="assets/img/logo.png" alt="Global">
-    <p>HUFS Global</p>
+    <p>HUFS X LIKELION</p>
   </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+  <p class="device-notification--message">가로모드는 지원하지 않습니다.</p>
 </div>
 
 <div class="perspective effect-rotate-left">
@@ -59,60 +70,60 @@
               <div class="work--lockup">
                 <ul class="slider">
                   <li class="slider--item slider--item-left">
-                    <a href="#0">
+                    <a href="https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=사이먼+도미닉">
                       <div class="slider--item-image">
-                        <img src="https://trello-attachments.s3.amazonaws.com/5ccfdb37da75cd4e95417354/500x500/f9fdef0cfb88e78895e05341baf1e3ee/SimonD.jpeg.jpg" alt="Victory">
+                        <img src="https://trello-attachments.s3.amazonaws.com/5ccfdb37da75cd4e95417354/500x500/f9fdef0cfb88e78895e05341baf1e3ee/SimonD.jpeg.jpg" alt="쌈디">
                       </div>
-                      <p class="slider--item-title">S???? ???????</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Simon-Dominic</p>
+                      <p class="slider--item-description">5월 15일 수요일</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a href="#0">
+                    <a href="https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%EC%BC%80%EC%9D%B4%EC%8B%9C">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
+                        <img src="https://trello-attachments.s3.amazonaws.com/5c4fcfbb8500507c91ad2d8f/5ccfdb37da75cd4e95417354/8b9b2e1cc38e968edd5d96124dea775d/Screen_Shot_2019-05-09_at_6.58.21_PM.png" alt="케이시">
                       </div>
-                      <p class="slider--item-title">K????</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Kassy</p>
+                      <p class="slider--item-description">5월 14일 화요일</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
-                    <a href="#0">
+                    <a href="https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query=현아">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                        <img src="https://trello-attachments.s3.amazonaws.com/5c4fcfbb8500507c91ad2d8f/5ccfdb37da75cd4e95417354/c421b7b8ba7e932e1d641a9b1a5a9aab/Screen_Shot_2019-05-09_at_7.05.40_PM.png" alt="현아">
                       </div>
-                      <p class="slider--item-title">H???-??</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">E??</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Hyun-Ah</p>
+                      <p class="slider--item-description">5월 14일 화요일</p>
                     </a>
                   </li>
                   
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
+                  <li class="slider--item">
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=엘로&oquery=현아&tqi=ULd5JwpVuEdssZxNUVKssssssYw-053329">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                        <img src="https://trello-attachments.s3.amazonaws.com/5ccfdb37da75cd4e95417354/556x558/be8a425fac5b15711367c280b141bd0c/Screen_Shot_2019-05-09_at_7.01.51_PM.png" alt="엘로">
                       </div>
-                      <p class="slider--item-title">P?????????</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">ELO</p>
+                      <p class="slider--item-description">5월 15일 수요일</p>
                     </a>
                   </li>
                   
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
+                  <li class="slider--item">
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=펀치넬로&oquery=엘로&tqi=ULd5%2BwpVuElsstKKDpVssssst6N-475630">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                        <img src="https://trello-attachments.s3.amazonaws.com/5c4fcfbb8500507c91ad2d8f/5ccfdb37da75cd4e95417354/47f883e0a6c233688a091ebf68b94555/Screen_Shot_2019-05-09_at_7.07.39_PM.png" alt="펀치넬로">
                       </div>
-                      <p class="slider--item-title">H????</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Punchnello</p>
+                      <p class="slider--item-description">5월 15일 수요일</p>
+                    </a>
+                  </li>
+                  
+                  <li class="slider--item">
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=후디&oquery=펀치넬로&tqi=ULd6vdpVuE4ssc5x%2FhGssssstSZ-181872">
+                      <div class="slider--item-image">
+                        <img src="https://trello-attachments.s3.amazonaws.com/5c4fcfbb8500507c91ad2d8f/5ccfdb37da75cd4e95417354/3cd7cbf180c6a253e0db4fd0876a50c3/Screen_Shot_2019-05-09_at_7.09.15_PM.png" alt="후디">
+                      </div>
+                      <p class="slider--item-title">Hoody</p>
+                      <p class="slider--item-description">5월 15일 수요일</p>
                     </a>
                   </li>
                 </ul>
@@ -214,35 +225,40 @@
               <!--<iframe src="https://app2.sli.do/event/sts1q4kb" height="100%" width="100%"></iframe>-->
               <h2 style="font-size:3rem;">행사 시간표</h2>
               <table class="table" style="font-size:1.3rem;">
-            <tbody><tr>
+            <tbody><tr style="border-bottom: 5px solid white;">
               <th width="200">DAY</th>
               <th width="500">TIME</th>
               <th width="500">PROGRAM</th>
             </tr>
             <tr>
-              <td width="200" rowspan="3">05.14</td>
-              <td width="500">13:45 ~ 14:25</td>
-              <td width="500">로그아웃</td>
+              <td width="200" rowspan="2">05.14</td>
+              <td width="500">20:00</td>
+              <td width="500">케이시</td>
+            </tr>
+            <tr style="border-bottom: 5px solid white;">
+              <!--<td width ="200"></td>-->
+              <td width="500">21:00</td>
+              <td width="500">현아</td>
+            </tr>
+            <tr>
+              <td width="200" rowspan="4">05.15</td>
+              <td width="500">18:00</td>
+              <td width="500">후디</td>
             </tr>
             <tr>
               <!--<td width ="200"></td>-->
-              <td width="500">14:40 ~ 15:20</td>
-              <td width="500">해무리</td>
+              <td width="500">18:30</td>
+              <td width="500">ELO</td>
             </tr>
             <tr>
               <!--<td width ="200"></td>-->
-              <td width="500">15:30~16:10</td>
-              <td width="500">슬랩업</td>
-            </tr>
-            <tr>
-              <td width="200" rowspan="2">05.15</td>
-              <td width="500">13:30 ~ 13:55</td>
-              <td width="500">하이라이트</td>
+              <td width="500">19:00</td>
+              <td width="500">펀치넬로</td>
             </tr>
             <tr>
               <!--<td width ="200"></td>-->
-              <td width="500">14:00 ~ 14:40</td>
-              <td width="500">아웃사이더</td>
+              <td width="500">19:30</td>
+              <td width="500">Simon-Dominic</td>
             </tr>
           </tbody></table>
           <br>

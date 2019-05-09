@@ -253,6 +253,16 @@ body {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .entry-header  {
+        position: absolute;
+        left : -5%;
+    }
+    body {
+        overflow-y: hidden;
+    }
+}
+
 .hero-content {
     padding: 50px 0;
     background: url("images/cover.jpg") no-repeat;
