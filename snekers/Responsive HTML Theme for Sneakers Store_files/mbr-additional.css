@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 450px){
  img{
-  display: block; margin: 0 auto; 
+  display: block; margin: 0px auto; 
   width: 15vw !important;
   /*height: 15vw !important;*/
   }
