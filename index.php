@@ -1,1 +1,1 @@
-<?php header('Location: /sunfest/index.html'); ?>
+<?php header('Location: /home/index.html'); ?>
