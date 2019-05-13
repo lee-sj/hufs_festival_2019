@@ -47,6 +47,10 @@
   label:hover {
     opacity: 1;
   }
+  a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+  }
   </style>
 </head>
 <body>
@@ -75,8 +79,10 @@
         <nav class="l-side-nav">
           <ul class="side-nav">
             <li class="is-active"><span>LineUp</span></li>
+            <li><span>Inform</span></li>
             <li><span>Booth</span></li>
             <li><span>TimeTable</span></li>
+            <li><span>LostAndFound</span></li>
           </ul>
         </nav>
         <ul class="l-main-content main-content">
@@ -169,6 +175,30 @@
               </div>
               <span class="scrollSpan"></span>
             </div>
+          </li>
+          
+          <li class="l-section section">
+             <div class="work">
+              <h2>축제기간 안내사항</h2>
+                <ul>
+                  <li>
+                      <h3>교내 셔틀버스 운행구간 변경</h3>
+                      <p>8:30~19:00 <br>✓ 모현사거리~도서관 구간 왕복</p>
+                  </li>
+                  
+                  <li>
+                      <h3>일반차량 및 주차통제</h3>
+                      <p>8:30~19:00 <br>✓ 도서관 위로 차량통제 (교원제외)<br>✓ 도서관~왕산문화예술회관 양측 통행로<br>
+                      &nbsp;&nbsp; → 차량 진입 및 갓길 주차 통제<br>✓ 학생회관 앞 주차 통제</p>
+                  </li>
+                  
+                  <li>
+                      <h3>기숙사 통금 연장</h3>
+                      <p>&nbsp;&nbsp; &lt;추가 개방&gt;<br>✓ 2:00~2:05<br>✓ 3:00~3:05</p>
+                  </li>
+                </ul>
+            </div>
+            
           </li>
           
           <li class="l-section section">
@@ -296,6 +326,24 @@
             </div>
           </li>
           
+          <li class="l-section section">
+             <div class="hire" style="text-align:center !important;">
+              <h2 style="margin-bottom:0px">분실물 센터</h2>
+              <div style="margin-top:0px">해당 메뉴를 눌러주세요</div>
+              <br>
+              <div class="">
+                <a href="https://app2.sli.do/event/tuqttmcn" target="_blank" style="font-size:1.5rem; font-weight:bold;">
+                  잃어버렸다
+                  <p style="font-size:1rem; font-weight:200; margin-top:0;">(Lost)</p>
+                </a>
+                <a href="https://app2.sli.do/event/5zjjtxxt" target="_blank" style="font-size:1.5rem; font-weight:bold;">
+                  주웠다
+                  <p style="font-size:1rem; font-weight:200; margin-top:0;">(Found)</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          
         </ul>
       </div>
     </div>
@@ -304,8 +352,10 @@
 
 <ul class="outer-nav">
     <li class="is-active">Line Up</li>
+    <li>Inform</li>
     <li>Booth</li>
     <li>TimeTable</li>
+    <li>LostAndFound</li>
 </ul>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
